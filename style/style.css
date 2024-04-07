@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #92A332;
+  color: white; }
+
+.wrapper {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #56642A;
+  border-radius: 10px; }
+  .wrapper .type_sentence {
+    padding: 10px;
+    background-color: #849531;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 24px; }
+  .wrapper .input_box {
+    margin-top: 40px; }
+    .wrapper .input_box textarea {
+      width: 100%;
+      height: 300px;
+      font-size: 24px;
+      border-radius: 10px;
+      padding: 10px; }
+  .wrapper .buttons {
+    margin-top: 20px; }
+    .wrapper .buttons .get_another_text {
+      border-radius: 10px;
+      border: 4px solid #56642A;
+      padding: 10px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      cursor: pointer; }
+      .wrapper .buttons .get_another_text:hover {
+        border: 4px solid #92A332; }
+  .wrapper .timer {
+    display: none;
+    position: absolute;
+    top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #849531;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: 700; }
+
+.correct {
+  color: #64ff64; }
+
+.incorrect {
+  color: #b81d0e;
+  text-decoration: underline; }
